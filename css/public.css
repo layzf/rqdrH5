@@ -1,0 +1,56 @@
+body,dd,dl,dt,h1,h2,h3,h4,h5,h6,li,p,ul{margin:0;padding:0;font-family:"微软雅黑"}
+ul{list-style:none}
+a,a:hover{text-decoration:none;color:#000;}
+img{display:block;border:none}
+.fl{float:left}
+.fr{float:right}
+ input{outline:none;}
+.clearfix:after{content:"\200b";clear:both;display:block;height:0}
+
+/*footer*/
+.footer{
+	height: 1.28rem;
+}
+.posBot{
+	position: fixed;
+	bottom: 0;
+	background: #FFF;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
+	z-index: 999;
+}
+.footer ul{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	height: 1.28rem;
+}
+.footer ul li:first-of-type img{
+	width:0.42rem;
+	height: 0.4rem;
+}
+.footer ul li:nth-of-type(2) img{
+	width:0.35rem;
+	height:0.42rem;
+}
+.footer ul li:last-of-type img{
+	width:0.42rem;
+	height:0.42rem;
+}
+.footer ul li{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	margin: 0  0.85rem;
+}
+.footer ul li p{
+	margin-top: 0.07rem;
+	color: #535353;
+	font-size:0.28rem;
+}
