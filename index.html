@@ -142,13 +142,15 @@
 	<script type="text/javascript">
 		$('.janros').liMarquee();
 		
-		document.getElementById("invterFirends").onclick = function(){
-        //android是传过来的对象名称，setmessage是android中的方法
-                android.log(name);
-        };
+//		document.getElementById("invterFirends").onclick = function(){
+//      //android是传过来的对象名称，setmessage是android中的方法
+//              android.log(name);
+//      };
         function info(des){
             content.innerHTML = "调用了"+des;
+            console.log(des)
         };
+        info()
 	</script>
 </body>
 </html>
