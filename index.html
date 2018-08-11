@@ -137,20 +137,21 @@
 <div class="botmImgs">
 	<img src="images/workall.png"/>
 </div>
+<div id="content">
+	
+</div>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.liMarquee.js"></script>
 	<script type="text/javascript">
 		$('.janros').liMarquee();
 		
-//		document.getElementById("invterFirends").onclick = function(){
-//      //android是传过来的对象名称，setmessage是android中的方法
-//              android.log(name);
-//      };
-        function info(des){
-//          content.innerHTML = "调用了"+des;
-            console.log(des)
+		var content  = document.getElementById("content");
+
+        function message(des){
+            content.innerHTML = "调用了有参的js函数"+des;
         };
-      
+        
+     
 	</script>
 </body>
 </html>
