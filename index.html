@@ -49,7 +49,7 @@
 		<img src="images/title.png"/>
 	</div>
 	<div class="invterfirends">
-		<div class="fl_invter contentImg">
+		<div class="fl_invter contentImg" id="invterFirends">
 			<div class="interTitle fl_interTitle">
 				邀请好友
 			</div>
@@ -160,6 +160,14 @@
 	<script type="text/javascript" src="js/jquery.liMarquee.js"></script>
 	<script type="text/javascript">
 		$('.janros').liMarquee();
+		
+		document.getElementById("invterFirends").onclick = function(){
+        //android是传过来的对象名称，setmessage是android中的方法
+                name1 = android.log(name);
+        };
+        function info(des){
+            content.innerHTML = "调用了"+des;
+        };
 	</script>
 </body>
 </html>
