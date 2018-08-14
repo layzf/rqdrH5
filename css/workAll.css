@@ -20,7 +20,7 @@ body {
 	padding-top: 0.21rem;
 }
 .swiper1{
-	margin-bottom: 0.21rem;
+	margin: 0.21rem 0;
 }
 .headerTitle .swiper-slide p:first-of-type{
 	font-size: 0.35rem;
